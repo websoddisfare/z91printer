@@ -8,8 +8,6 @@
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="z91Printer">
 				<param name="android-package" value="cordova.plugin.z91printer.z91Printer" />
-				<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-				<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 			</feature>
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml" />
